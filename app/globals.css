@@ -74,3 +74,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.underlineLink {
+  @apply bg-gradient-to-r from-green-800 to-green-800 bg-no-repeat 
+  no-underline [background-position:0_100%]
+  [background-size:100%_0.2em] focus:[background-size:100%_100%] hover:text-white
+  hover:[background-size:100%_100%] motion-safe:transition-all
+  motion-safe:duration-300 dark:from-green-800 dark:to-green-800;
+}
