@@ -1,4 +1,5 @@
 import { Line } from "@/components/manual/line";
+import { PortfolioCard } from "@/components/portfolioCard";
 export default function Home() {
   return (
     <>
@@ -10,6 +11,8 @@ export default function Home() {
           <Line />
         </div>
       </div>
+
+      <PortfolioCard />
     </>
   );
 }
