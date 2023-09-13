@@ -21,7 +21,7 @@ export default function Home() {
       <PortfolioCard />
       <Link
         href="/about"
-        className="underlineLink text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
+        className="underlineLink text-md w-max cursor-pointer text-sm"
       >
         See more portfolio &rarr;
       </Link>
