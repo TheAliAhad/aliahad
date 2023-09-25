@@ -1,14 +1,14 @@
-export const portfolioContent=[
+export const featuredPortfolioContent=[
     {
         title: "This is the first title",
-        desc: "This is the first desc"
+        desc: ['Full Stack Website', 'Prisma', 'Nextjs', 'SQL']
     },
     {
         title: "This is the second title",
-        desc: "This is the second desc"
+        desc: ['ml', 'ai']
     },
     {
         title: "This is the third title",
-        desc: "This is the third desc"
+        desc: ['ml', 'ai']
     },
 ]
