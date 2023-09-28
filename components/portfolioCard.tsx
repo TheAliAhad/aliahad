@@ -7,12 +7,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { featuredPortfolioContent } from "@/content/portfolio";
+import { PortfolioContent } from "@/content/portfolio";
 
 export const PortfolioCard = () => {
   return (
     <>
-      {featuredPortfolioContent.map((pc, index) => {
+      {PortfolioContent.map((pc, index) => {
         return (
           <div key={index} className="flex flex-col">
             <Card className="flex gap-3 my-3 flex-wrap">
