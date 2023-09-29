@@ -26,7 +26,7 @@ const ContactPage=()=>{
 </Card>
 <div className="flex flex-row content-between gap-3 justify-center p-3">
         <div className="pt-4">
-          <h1>Other Social Media (Not so active 😁)</h1>
+          <h1>Other Activities</h1>
         </div>
         <div className="w-2/4">
           <Line />

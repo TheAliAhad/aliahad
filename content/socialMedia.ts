@@ -16,17 +16,17 @@ export const socialMedia=[
     },
     {
         name: "Facebook",
-        link:"https://facebook.com/aliahaddotcom",
+        link:"https://facebook.com/TheAliAhad3",
         status:"Normal"
     },
     {
         name: "Instagram",
-        link:"https://instagram.com/aliahaddotcom",
+        link:"https://instagram.com/TheAliahad",
         status:"Normal"
     },
     {
         name: "Twitter",
-        link:"https://twitter.com/aliahaddotcom",
+        link:"https://twitter.com/TheAliAHad",
         status:"Enjoying Tech Drama"
     },
     {
