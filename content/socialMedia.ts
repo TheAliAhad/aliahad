@@ -2,7 +2,7 @@ export const socialMedia=[
     {
         name: "Youtube",
         link:"https://youtube.com/@aliahadmd",
-        status:"Free Course (Bangla)"
+        status:"Express my thoughts!"
     },
     {
         name: "Github",
