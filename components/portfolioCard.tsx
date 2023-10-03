@@ -19,13 +19,13 @@ export const PortfolioCard = () => {
               <CardHeader>
                 <CardTitle>{pc.title}</CardTitle>
                 <CardDescription>
-                  <span className="flex gap-3">
+                  <div className="flex gap-3">
                     {pc.desc.map((item, i) => (
                       <Badge key={i} variant="outline">
                         {item}
                       </Badge>
                     ))}
-                  </span>
+                  </div>
                 </CardDescription>
               </CardHeader>
               <CardContent>
