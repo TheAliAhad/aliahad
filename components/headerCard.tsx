@@ -16,7 +16,7 @@ export default function HeaderCard() {
           </div>
           <div>
             <CardTitle>Ali Ahad</CardTitle>
-            <CardDescription>Software Engineer</CardDescription>
+            <CardDescription> Computer Science Engineer.</CardDescription>
           </div>
         </CardHeader>
       </Card>
