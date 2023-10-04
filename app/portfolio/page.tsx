@@ -1,7 +1,9 @@
+import { PortfolioCard } from "@/components/portfolioCard";
+
 export default function Portfolio() {
   return (
     <>
-      <h1>portfolio page</h1>
+      <PortfolioCard/>
     </>
   );
 }

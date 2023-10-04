@@ -21,9 +21,9 @@ export const HeaderMenu = () => {
           <MenubarTrigger>
             <Link href="/portfolio">Portfolio</Link>
           </MenubarTrigger>
-          <MenubarTrigger>
+          {/* <MenubarTrigger>
             <Link href="/me">About Me</Link>
-          </MenubarTrigger>
+          </MenubarTrigger> */}
           <MenubarTrigger>
             <Link href="/contact">Contact</Link>
           </MenubarTrigger>

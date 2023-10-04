@@ -1,6 +1,6 @@
 import { Line } from "@/components/manual/line";
 import Particles from "@/components/particles";
-import { PortfolioCard } from "@/components/portfolioCard";
+import { FeaturedPortfolioCard } from "@/components/featuredPortfolioCard";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -18,9 +18,9 @@ export default function Home() {
         </div>
       </div>
 
-      <PortfolioCard />
+      <FeaturedPortfolioCard />
       <Link
-        href="/about"
+        href="/portfolio"
         className="underlineLink text-md w-max cursor-pointer text-sm"
       >
         See more portfolio &rarr;

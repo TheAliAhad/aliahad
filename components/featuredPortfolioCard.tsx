@@ -10,10 +10,10 @@ import { Badge } from "@/components/ui/badge";
 import { PortfolioContent } from "@/content/portfolio";
 import Link from "next/link";
 
-export const PortfolioCard = () => {
+export const FeaturedPortfolioCard = () => {
   return (
     <>
-      {PortfolioContent.map((pc, index) => {
+      {PortfolioContent.slice(0, 2).map((pc, index) => {
         return (
           <div key={index} className="flex flex-col">
             <Card className="flex gap-3 my-3 flex-wrap">
