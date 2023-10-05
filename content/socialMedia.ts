@@ -2,7 +2,7 @@ export const socialMedia=[
     {
         name: "Youtube",
         link:"https://youtube.com/@aliahadmd",
-        status:"Express my thoughts!"
+        status:"Not Active"
     },
     {
         name: "Github",
@@ -17,12 +17,12 @@ export const socialMedia=[
     {
         name: "Facebook",
         link:"https://facebook.com/TheAliAhad3",
-        status:"Normal"
+        status:"Not active"
     },
     {
         name: "Instagram",
         link:"https://instagram.com/TheAliahad",
-        status:"Normal"
+        status:"Not Active"
     },
     {
         name: "Twitter",
@@ -32,7 +32,7 @@ export const socialMedia=[
     {
         name: "Blue Sky",
         link:"https://bsky.app/profile/aliahad.com",
-        status:"New Technology"
+        status:"Not Active"
     },
 ]
 
