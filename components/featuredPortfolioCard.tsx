@@ -36,7 +36,8 @@ export const FeaturedPortfolioCard = () => {
               </CardContent>
               <CardFooter className="gap-3">
                 <Link className="underlineLink text-md w-max cursor-pointer text-sm" href={pc.github}>Source code</Link>
-                <Link className="underlineLink text-md w-max cursor-pointer text-sm" href={pc.live}>view</Link>
+                <Link className="underlineLink text-md w-max cursor-pointer text-sm" href={pc.live}>view-client</Link>
+                {pc.live2? <Link className="underlineLink text-md w-max cursor-pointer text-sm" href={pc.live2}>view-admin</Link>:""}
               </CardFooter>
             </Card>
           </div>

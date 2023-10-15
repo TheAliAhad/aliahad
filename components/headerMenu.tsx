@@ -24,9 +24,9 @@ export const HeaderMenu = () => {
           {/* <MenubarTrigger>
             <Link href="/me">About Me</Link>
           </MenubarTrigger> */}
-          <MenubarTrigger>
+          {/* <MenubarTrigger>
             <Link href="/contact">Contact</Link>
-          </MenubarTrigger>
+          </MenubarTrigger> */}
         </MenubarMenu>
       </Menubar>
       <ModeToggle />
