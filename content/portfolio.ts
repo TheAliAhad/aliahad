@@ -10,7 +10,7 @@ export const PortfolioContent=[
         title: "Full Stack Ecommerce Web Application",
         stack: ['NextJs', 'ExpressJs', 'Various payment integration'],
         desc:"Production ready, Enterprise and scalable full stack web application. Built with modern Technology! Ready for sell.",
-        github:"https://ecommerce-admin.aliahad.com",
+        github:"https://github.com/aliahadmd/enterprise-commerce",
         live:"https://ecommerce-client.aliahad.com",
         live2:"https://ecommerce-admin.aliahad.com"
     },
