@@ -30,14 +30,21 @@ export const FeaturedPortfolioCard = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p>
-              {pc.desc}
-                </p>
+                <p>{pc.desc}</p>
               </CardContent>
               <CardFooter className="gap-3">
-                <Link className="underlineLink text-md w-max cursor-pointer text-sm" href={pc.github}>Source code</Link>
-                <Link className="underlineLink text-md w-max cursor-pointer text-sm" href={pc.live}>view-client</Link>
-                {pc.live2? <Link className="underlineLink text-md w-max cursor-pointer text-sm" href={pc.live2}>view-admin</Link>:""}
+                <Link
+                  className="underlineLink text-md w-max cursor-pointer text-sm"
+                  href={pc.github}
+                >
+                  Source code
+                </Link>
+                <Link
+                  className="underlineLink text-md w-max cursor-pointer text-sm"
+                  href={pc.live}
+                >
+                  view
+                </Link>
               </CardFooter>
             </Card>
           </div>

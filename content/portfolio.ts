@@ -2,23 +2,22 @@ export const PortfolioContent=[
     {
         title: "Subscription-based-saas-marketplace",
         stack: ['Full Stack Website', 'ExpressJs', 'SQL', 'EJS'],
-        desc:"A user-friendly platform for hauliers and freight forwarders to find and connect with each other. Enable hauliers to showcase their services, availability, and pricing to attract potential freight forwarders. Allow freight forwarders to easily search and filter through a database of hauliers based on specific requirements. Provide a secure and streamlined communication channel between hauliers and freight forwarders to negotiate and finalize contract details. Offer additional features such as contract management, performance tracking, and payment integration.",
+        desc:"saas base multiplatform marketplace to communicate customer and subscriber. Customer can book teir service and subsciber can buy their service with monthly membership",
         github:"https://github.com/aliahadmd/Subscription-based-saas-marketplace",
         live:"https://saas-demo-1.aliahad.com"
     },
     {
         title: "Full Stack Ecommerce Web Application",
-        stack: ['NextJs', 'ExpressJs', 'Various payment integration'],
+        stack: ['Full Stack Website', 'NextJs13', 'MongoDB', 'Various payment integration'],
         desc:"Production ready, Enterprise and scalable full stack web application. Built with modern Technology! Ready for sell.",
-        github:"https://github.com/aliahadmd/enterprise-commerce",
-        live:"https://ecommerce-client.aliahad.com",
-        live2:"https://ecommerce-admin.aliahad.com"
+        github:"https://github.com/aliahadmd/ecommerce",
+        live:"https://ecommerce.aliahad.com"
     },
     {
         title: "This is the third title",
-        stack: ['ml', 'ai'],
-        desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-        github:"",
-        live:""
+        stack: ['Full Stack Website', 'ExpressJs', 'SQL', 'EJS'],
+        desc:"Newsletter management system web application that creator/Tutor can share to their audience to collect their email and send message about their course/video information ",
+        github:"https://github.com/aliahadmd/newsletters-management-system",
+        live:"https://saas-demo-2.aliahad.com"
     },
 ]
